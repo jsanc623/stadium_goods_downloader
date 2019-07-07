@@ -15,3 +15,11 @@ either via `-u url` or `--url url` or `--url=url`, for example:
 
 It will download all the products (name and price) into a CSV (stadium_goods.csv), 
 accounting for any pagination. Additionally, it will output the CSV to stdout.
+
+Additionally, it is currently configured to bypass CloudFlare DDoS protection. 
+
+### Libraries used:
+
+https://github.com/samacs/simple_html_dom
+https://github.com/KyranRana/cloudflare-bypass
+
